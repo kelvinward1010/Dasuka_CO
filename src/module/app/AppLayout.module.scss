@@ -1,0 +1,67 @@
+$button-primary: #1890ff;
+$button-import: #3aa966;
+$button-export: #f4aa3a;
+$button-update: #17ccb6;
+$button-upload: #13aedf;
+$button-download: #97c568;
+$button-other: #65b7f3;
+$button-disabled: #f5f5f5;
+$color-primary: #8ae929;
+
+* {
+  margin: 0;
+}
+.appLayout {
+  :global {
+    .ant-pro-top-nav-header-menu {
+      line-height: unset;
+
+      & > .ant-menu {
+        .ant-menu-item.ant-menu-item-selected,
+        .ant-menu-submenu.ant-menu-submenu-selected {
+          // stroke: #8ae929;
+          svg path {
+            fill: $color-primary;
+          }
+          .ant-pro-base-menu-item-text {
+            color: $color-primary;
+          }
+        }
+      }
+    }
+
+    .ant-pro-base-menu-item-title,
+    .ant-pro-base-menu-item-text {
+      color: white;
+      & .ant-pro-base-menu-item-text,
+      & a {
+        color: inherit;
+      }
+      &:hover {
+        .ant-pro-base-menu-item-text {
+          color: $color-primary !important;
+        }
+        svg path {
+          fill: $color-primary !important;
+        }
+      }
+    }
+
+    .ant-layout-content {
+      padding: 0;
+    }
+
+    // Set sticky header
+    .ant-affix {
+      background-color: #ffffff;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      height: 60px !important;
+      transition: all ease 0.1s;
+    }
+  }
+  // .content_table {
+  //   background-color: white;
+  //   padding: 20px 20px;
+  // }
+}

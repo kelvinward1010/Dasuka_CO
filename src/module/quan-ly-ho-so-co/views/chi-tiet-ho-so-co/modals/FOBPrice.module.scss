@@ -1,0 +1,62 @@
+$color-primary: #0c8ce9;
+$color-primary-v2: #1890ff;
+$color-dark-green: #2c678d;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-gray: #d9d9d9;
+$color-character-title: rgba(0, 0, 0, 0.85);
+$shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+
+.button-success {
+  background-color: #97c568;
+  color: #ffffff !important;
+}
+
+.modal {
+  &_header {
+    margin: 0 !important;
+    color: $color-dark-green;
+    align-items: center;
+    padding: 0 15px;
+    height: 41px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 11px !important;
+    &_title {
+      margin: 0 !important;
+      color: $color-dark-green !important;
+    }
+    &_close {
+      font-size: 24px;
+      color: $color-dark-green !important;
+      &:hover {
+        color: #2c668dd0 !important;
+      }
+    }
+  }
+
+  :global {
+    .ant-modal-content {
+      padding: 0 0 19px 0;
+    }
+    .ant-form-vertical,
+    .ant-modal-footer {
+      padding: 0 15px;
+      margin-top: 0;
+    }
+    .ant-form-item {
+      margin-bottom: 17px;
+    }
+    .ant-form-item-label {
+      font-weight: 600;
+      padding-bottom: 3px;
+    }
+  }
+}
+
+.modal .modal-delete {
+  :global {
+    .ant-modal-footer {
+      text-align: center;
+    }
+  }
+}

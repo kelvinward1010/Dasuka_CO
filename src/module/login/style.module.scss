@@ -1,0 +1,25 @@
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2c678d;
+
+  .login_flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .login .ant-space {
+      border: 1px solid #2c678d;
+      // border-radius: 4px;
+    }
+  }
+
+  .click-login {
+    width: 100%;
+  }
+}

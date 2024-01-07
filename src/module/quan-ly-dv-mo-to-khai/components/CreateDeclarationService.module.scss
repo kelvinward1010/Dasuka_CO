@@ -1,0 +1,12 @@
+.modal {
+  :global {
+    .ant-form-item .ant-form-item-explain-error {
+      font-size: 10px;
+    }
+
+    .ant-table-wrapper .ant-table-tbody > tr > th,
+    .ant-table-wrapper .ant-table-tbody > tr > td {
+      vertical-align: top;
+    }
+  }
+}

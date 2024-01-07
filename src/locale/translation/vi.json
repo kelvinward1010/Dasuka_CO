@@ -1,0 +1,694 @@
+{
+  "error": {
+    "404.title": "Không tìm thấy trang",
+    "404.subTitle": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại.",
+    "403.title": "Không có quyền truy cập",
+    "403.subTitle": "Xin lỗi, bạn không có quyền truy cập trang này.",
+    "500.title": "Lỗi máy chủ",
+    "500.subTitle": "Xin lỗi, máy chủ đang gặp sự cố. Vui lòng thử lại sau.",
+    "backHome": "Quay lại trang chủ"
+  },
+
+  "for_all": {
+    "title_kh": "Khách hàng đang làm việc",
+    "title_nv": "Nhân viên",
+    "button_calculate": "Tính toán lại",
+    "button_create": "Thêm mới",
+    "button_save": "Lưu",
+    "button_cancel": "Hủy",
+    "button_delete_ok": "Có",
+    "button_delete_no": "Không",
+    "button_more": "Xem thêm",
+    "button_suggest": "Tự động gợi ý",
+    "profile": "Thông tin tài khoản",
+    "forgot_password": "Quên mật khẩu",
+    "change_password": "Đổi mật khẩu",
+    "logout": "Đăng xuất",
+    "login": "Đăng nhập",
+    "accept": "Đồng ý",
+    "decline": "Từ chối",
+    "lack": "Thiếu",
+    "date_enough": "Không đủ ngày",
+    "enough": "Đủ",
+    "over": "Thừa",
+    "all": "Tất cả",
+    "not_achieved": "Không đạt",
+    "achieved": "Đạt"
+  },
+
+  "message": {
+    "over_files": "Bạn chỉ có thể upload tối đa 10 files",
+    "create_success": "Thêm mới thành công",
+    "create_failure": "Thêm mới thất bại",
+    "update_success": "Cập nhật thành công",
+    "update_failure": "Cập nhật thất bại",
+    "delete_success": "Xóa thành công",
+    "delete_failure": "Xóa thất bại",
+    "download_failure": "Tải xuống thất bại",
+    "download_not_existed": "Không tồn tại files trong hệ thống, vui lòng upload lại: ",
+    "validator": "Bạn cần điền đầy đủ thông tin",
+    "required_customer": "Vui lòng chọn khách hàng",
+    "required_staff": "Vui lòng chọn nhân viên",
+    "required_export": "Vui lòng chọn tờ khai xuất khẩu",
+    "required_product": "Cần chọn ít nhất 1 sản phẩm",
+    "required_number_co": "Vui lòng nhập số CO",
+    "required_material": "Nguyên vật liệu còn thiếu, không thể hoàn thành",
+    "required_conversion_factor": "Vui lòng chuyển đổi đơn vị cho NVL",
+    "same_shipping_terms": "Không thể chọn tờ khai khác điều kiện vận chuyển.",
+    "required_FOB": "Vui lòng nhập giá FOB!",
+    "required_change_unit": "Bạn cần chuyển đổi đơn vị trước.",
+    "not_explanation_unit": "Không có file giải trình do chưa chuyển đổi đơn vị tính.",
+    "not_explanation_fob": "Không có file giải trình do chưa có giá FOB.",
+    "vat_not_found": "Hóa đơn không có thông tin hoặc thông tin không chính xác",
+    "same_pdf_xml": "Bạn cần import đồng thời cả XML và PDF",
+    "error": "Có lỗi xảy ra! Vui lòng thử lại.",
+    "alert_lack_materials": "nguyên phụ liệu đang không có trong tờ khai và hóa đơn VAT, hoặc bị thiếu (thừa) trong định mức chỉ định."
+  },
+
+  "dashboard": {
+    "title": "Dashboard",
+    "total_customer": "Khách hàng",
+    "total_co_document": "Hồ sơ CO",
+    "total_product": "Sản phẩm",
+    "total_material": "Nguyên vật liệu",
+    "total_employee": "Nhân viên",
+    "material_status": {
+      "title": "Danh sách trạng thái nvl sử dụng làm c/o",
+      "import": "Tờ khai nhập",
+      "export": "Tờ khai xuất",
+      "vat": "Hóa đơn VAT",
+      "material": "Nguyên vật liệu",
+      "material_stock": "Nguyên liệu tồn kho",
+      "usedup": "Đã sử dụng",
+      "using": "Đang sử dụng",
+      "unused": "Chưa sử dụng",
+      "available": "Tồn kho",
+      "unavailable": "Hết"
+    },
+    "document_co": {
+      "title": "SỐ LƯỢNG HỒ SƠ C/O THEO TRẠNG THÁI",
+      "number": "Số lượng",
+      "year": "Năm",
+      "done": "Đã hoàn thành",
+      "edited": "Đã sửa",
+      "canceled": "Đã hủy"
+    },
+    "declaration": {
+      "title": "SỐ LƯỢNG DỊCH VỤ MỞ TỜ KHAI"
+    }
+  },
+
+  "quan_ly_hs_co": {
+    "title_main": "DANH SÁCH HỒ SƠ C/O",
+    "title_sl_time": "Thời gian",
+    "title_sl_status": "Trạng thái",
+    "title_search": "Số tờ khai xuất.",
+    "button_them_moi": "Thêm mới",
+    "sub_title_a": "a. Thông tin chung của hồ sơ C/O",
+    "sub_title_b": "b. Sản phẩm được chọn làm C/O",
+    "sub_title_c": "c. Thông tin chi tiết các sản phẩm được chọn làm C/O",
+    "sub_title_d": "d. Tiêu chí áp dụng",
+    "table_dshs": {
+      "stt": "STT",
+      "form_co": "Form C/O",
+      "date_hs": "Ngày tạo hồ sơ",
+      "staff": "Nhân viên phụ trách",
+      "number_tkx": "Số tờ khai xuất - ĐKVC",
+      "invoice_number": "Số invoice",
+      "customer": "Khách hàng",
+      "status": "Trạng thái",
+      "action": "Action"
+    },
+    "detail": {
+      "title": "CHI TIẾT HỒ SƠ C/O",
+      "lack_materials": "Bổ sung NL, VT",
+      "over_materials": "Điều chỉnh NL, VT",
+      "lack_materials_content_line1": "NL, VT không đủ",
+      "lack_materials_content_line2": "Bạn hãy chọn cách bổ sung",
+      "over_materials_content": "NL, VT bị thừa, bạn vui lòng điều chỉnh lại số lượng trong định mức",
+      "alert_save": "Bạn có muốn lưu trước khi tải không?"
+    },
+    "them_moi_hs": {
+      "title_main": "THÊM MỚI HỒ SƠ C/O",
+      "button_luu": "Lưu",
+      "button_huy": "Hủy",
+      "sl_tkxk": "Tờ khai xuất khẩu",
+      "sl_form_co": "Form C/O",
+      "sl_date_hs": "Ngày tạo",
+      "sl_status": "Trạng thái",
+      "so_co": "Số C/O",
+      "title_ds_do_co": "Danh sách sản phẩm đưa vào bộ hồ sơ C/O",
+      "tieu_chi_title": "Tiêu chí áp dụng",
+      "title_dl_form_gt": "Tải về form giải trình",
+      "dinh_muc": "Theo định mức",
+      "create_norm": "Thêm mới định mức",
+      "info_chung_hs_co": "Thông tin chung của hồ sơ C/O",
+      "title_existing_norm": "Thay thế định mức"
+    },
+    "table_sp_in_co": {
+      "stk": "Số tờ khai xuất",
+      "title_info_sp": "Thông tin sản phẩm",
+      "so_luong": "TSL",
+      "sl_done_co": "SL đã làm C/O",
+      "sl_not_co": "SL làm C/O",
+      "don_vi": "ĐVT",
+      "don_gia": "Đơn giá (USD)",
+      "don_gia_fob": "Đơn giá FOB (USD)",
+      "dinh_muc": "Định mức",
+      "tc_kq": "Tiêu chí - Kết quả"
+    },
+    "histories": {
+      "title": "Lịch sử hồ sơ C/O",
+      "employee": "Nhân viên",
+      "customer": "Khách hàng",
+      "date": "Ngày tạo hồ sơ",
+      "export_declaration": "Số tờ khai xuất - ĐKVC",
+      "history_time": "Thời gian",
+      "reason": "Lý do",
+      "action": "Thao tác",
+      "approver": "Người phê duyệt",
+      "status": "Trạng thái"
+    }
+  },
+
+  "quan_ly_dv_mo_tk": {
+    "title_main": "DỊCH VỤ MỞ TỜ KHAI",
+    "title_search": "Tìm kiếm theo mã tờ khai...",
+    "title_sl_status": "Trạng thái",
+    "title_sl_time": "Thời gian",
+    "table": {
+      "stt": "STT",
+      "report_id": "Số tờ khai",
+      "date_of_declaration": "Ngày",
+      "customer_name": "Khách hàng",
+      "cd_type": "CD Type",
+      "customs_stream": "Luồng",
+      "bill_number": "Bill",
+      "invoice_number": "Số Invoice",
+      "shipping_terms": "ĐKVC",
+      "gw": "GW",
+      "pk": "PK",
+      "import_export": "Nhập/Xuất",
+      "transportation_mode": "PTVT",
+      "incurred_cost": "Phát sinh",
+      "action": "KT chuyên ngành"
+    },
+    "detail": {
+      "title_main": "Chi tiết báo cáo mở tờ khai",
+      "stt": "STT",
+      "report_id": "Số tờ khai",
+      "date_of_declaration": "Ngày",
+      "cd_type": "CD Type",
+      "customs_stream": "Luồng",
+      "bill_number": "Bill",
+      "invoice_number": "Số hóa đơn",
+      "shipping_terms": "Điều kiện vận chuyển",
+      "transportation_mode": "Phương thức vận chuyển",
+      "gw": "GW",
+      "pk": "PK",
+      "import_export": "Nhập/Xuất",
+      "branch": "Nhánh",
+      "truck_type": "Truck type",
+      "import_truck_number": "Số xe nhập",
+      "plant_number": "Mã xưởng",
+      "dsk_person": "Người làm DSK",
+      "employee_id": "Kiểm hóa - Người kiểm",
+      "note": "Ghi chú",
+      "title_sub_table": "Phí phát sinh",
+      "fee_name": "Tên phí",
+      "quantity": "Số lượng",
+      "unit": "Đơn vị",
+      "unit_price": "Đơn giá",
+      "total": "Thành tiền",
+      "action": "Action",
+      "button_submit": "Lưu",
+      "button_cancel": "Hủy",
+      "message_success": "Cập nhật thành công",
+      "message_failure": "Cập nhật thất bại",
+      "message_validate_required": "Không thể để trống"
+    },
+    "create_specialized": {
+      "title": "Thêm dịch vụ chuyên ngành",
+      "title_select": "Chọn tên phí",
+      "name": "Tên phí",
+      "unit_price": "Đơn giá"
+    }
+  },
+
+  "export_declaration": {
+    "title_main": "DANH SÁCH TỜ KHAI XUẤT",
+    "title_expected": "DANH SÁCH TỜ KHAI XUẤT DỰ KIẾN",
+    "detail": {
+      "title": "Chi tiết tờ khai xuất khẩu",
+      "title_expected": "Chi tiết tờ khai xuất khẩu dự kiến",
+      "title_create_expected": "Thêm tờ khai xuất khẩu dự kiến"
+    },
+    "fields": {
+      "serial": "STT",
+      "id": "Số TK",
+      "id_full": "Số tờ khai",
+      "date": "Ngày",
+      "date_full": "Ngày khai",
+      "bill": "Bill",
+      "invoice_number": "Số hóa đơn",
+      "exporter": "Người xuất khẩu",
+      "importer": "Người nhập khẩu",
+      "shipping_terms": "Điều kiện vận chuyển",
+      "status": "Trạng thái",
+      "action": "Action",
+      "exchange_rate": "Quy đổi tỷ giá (USD->VNĐ)",
+      "form": "Form C/O",
+      "endow_number": "Số C/O ưu đãi NK",
+      "endow_date": "Ngày cấp C/O ưu đãi NK",
+      "processing_contract": "Số HDGC",
+      "hs_code": "Mã HS",
+      "product_code": "Mã hàng hóa",
+      "product_name": "Tên hàng hóa",
+      "quantity": "Số lượng",
+      "unit": "Đơn vị",
+      "unit_price": "Đơn giá (USD)",
+      "taxable_price": "Đơn giá tính thuế (VND)",
+      "co_available": "SL chưa làm C/O",
+      "co_used": "SL đã làm C/O",
+      "origin_country": "Quốc gia"
+    }
+  },
+
+  "import_declaration": {
+    "title_main": "DANH SÁCH TỜ KHAI NHẬP",
+    "detail": {
+      "title": "Chi tiết tờ khai nhập khẩu",
+      "title_quantity": "Thông tin chi tiết SL đã làm C/O"
+    },
+    "fields": {
+      "serial": "STT",
+      "id": "Số TK",
+      "id_full": "Số tờ khai",
+      "date": "Ngày",
+      "date_full": "Ngày khai",
+      "bill": "Bill",
+      "invoice_number": "Số hóa đơn",
+      "exporter": "Người xuất khẩu",
+      "importer": "Người nhập khẩu",
+      "shipping_terms": "Điều kiện vận chuyển",
+      "status": "Trạng thái",
+      "action": "Action",
+      "exchange_rate": "Quy đổi tỷ giá (USD->VNĐ)",
+      "form": "Form C/O",
+      "endow_number": "Số C/O ưu đãi NK",
+      "endow_date": "Ngày cấp C/O ưu đãi NK",
+      "x_annex_code": "Phụ lục X",
+      "processing_contract": "Số HDGC",
+      "hs_code": "Mã HS",
+      "product_code": "Mã hàng hóa",
+      "product_name": "Tên hàng hóa",
+      "quantity": "Số lượng",
+      "unit": "Đơn vị",
+      "cif_price": "Đơn giá CIF (USD)",
+      "taxable_price": "Đơn giá tính thuế (VND)",
+      "co_available": "SL chưa làm C/O",
+      "co_using": "SL đang bị giữ lại",
+      "co_used": "SL đã làm C/O",
+      "co_document": "Bộ hồ sơ đã dùng",
+      "norm_name": "Tên định mức",
+      "co_availability": "SL khả dụng làm C/O"
+    }
+  },
+
+  "quan_ly_vat": {
+    "title_main": "DANH SÁCH HÓA ĐƠN VAT",
+    "create": {
+      "title": "Thêm mới hoá đơn VAT",
+      "vat_number": "Số hóa đơn",
+      "exchange_rate": "Quy đổi tỷ giá (USD->VNĐ)",
+      "x_annex_code": "Mã phụ lục X",
+      "date_x": "Ngày",
+      "customer": "Khách hàng đang làm việc",
+      "date_export": "Ngày xuất hóa đơn",
+      "title_sub": "Danh sách hàng hóa",
+      "stt": "STT",
+      "product_id": "Mã hàng hóa",
+      "product_name": "Tên hàng hóa",
+      "hs_code": "Mã HS",
+      "material_code": "Mã NL,VT",
+      "material_name": "Tên NL,VT",
+      "quantity": "SL",
+      "unit": "ĐVT",
+      "co_available": "SL tồn làm C/O",
+      "unit_price": "Đơn giá (VNĐ)",
+      "cif_price": "Đơn giá CIF (USD)",
+      "action": "Action"
+    },
+    "update": {
+      "title": "Chi tiết hóa đơn VAT"
+    },
+    "map": {
+      "title": "QUẢN LÝ DANH SÁCH MAPPING",
+      "search_placeholder": "Mã hh, tên hh",
+      "stt": "STT",
+      "mst_customer": "MST khách hàng",
+      "mst_seller": "MST bên bán",
+      "hs_code": "Mã HS",
+      "material_code_seller": "Mã hàng hóa bên bán",
+      "material_name_seller": "Tên hàng hóa bên bán",
+      "material_code_customer": "Mã NVL khách hàng",
+      "material_name_customer": "Tên NVL khách hàng",
+      "action": "Action"
+    }
+  },
+
+  "quan_ly_phi": {
+    "title_main": "DANH MỤC PHÍ",
+    "search_placeholder": "Mã phí, tên phí, loại phí",
+    "table_main": {
+      "stt": "STT",
+      "fee_id": "Mã phí",
+      "fee_name": "Tên phí",
+      "unit": "Đơn vị",
+      "fee_type": "Loại phí",
+      "action": "Action"
+    },
+    "detail": {
+      "title": "Chi tiết phí",
+      "fee_id": "Mã phí",
+      "fee_name": "Tên phí",
+      "unit": "Đơn vị",
+      "fee_type": "Loại phí"
+    },
+    "create": {
+      "title": "Thêm mới phí"
+    },
+    "delete": {
+      "title": "Xóa phí"
+    }
+  },
+
+  "quan_ly_dinh_muc": {
+    "title_main": "DANH SÁCH ĐỊNH MỨC SẢN PHẨM",
+    "search_placeholder": "Tên định mức, mã SP, tên SP",
+    "table_main": {
+      "stt": "STT",
+      "name_dm": "Tên định mức",
+      "info_kh": "Thông tin khách hàng",
+      "info_sp": "Thông tin sản phẩm",
+      "action": "Action"
+    },
+    "table_add_new": {
+      "stt": "STT",
+      "code_nl_vt": "Mã NL, VT",
+      "name": "Tên",
+      "dvt": "ĐVT",
+      "dinh_muc": "Định mức",
+      "tlhh": "Tỷ lệ hao hụt (%)",
+      "dmkchh": "ĐMKCHH",
+      "nguon_cc": "Nguồn cung cấp",
+      "list_declarations": "Số tờ khai nhập/Hóa đơn VAT",
+      "serial_list": "Số thứ tự",
+      "quantity": "Số lượng"
+    },
+    "table_detail": {
+      "stt": "STT",
+      "code_nl_vt": "Mã NL, VT",
+      "name": "Tên",
+      "dvt": "ĐVT",
+      "dinh_muc": "Định mức",
+      "tlhh": "Tỷ lệ hao hụt (%)",
+      "dmkchh": "ĐMKCHH",
+      "nguon_cc": "Nguồn cung cấp"
+    }
+  },
+
+  "quan_ly_san_pham": {
+    "title_main": "DANH MỤC SẢN PHẨM",
+    "search_placeholder": "Mã HS, mã sản phẩm, tên sản phẩm",
+    "table_main": {
+      "stt": "STT",
+      "ma_hs": "Mã HS",
+      "customer_name": "Tên khách hàng",
+      "ma_sp": "Mã sản phẩm",
+      "name_sp": "Tên sản phẩm",
+      "dvt": "Đơn vị tính",
+      "action": "Action"
+    },
+    "input_detail": {
+      "title": "Chi tiết sản phẩm",
+      "ma_hs": "Mã HS",
+      "ma_sp": "Mã sản phẩm",
+      "name_sp": "Tên sản phẩm",
+      "dvt": "Đơn vị tính"
+    },
+    "delete": {
+      "title": "Xóa sản phẩm"
+    }
+  },
+
+  "quan_ly_khach_hang": {
+    "title_main": "DANH SÁCH KHÁCH HÀNG",
+    "search_placeholder": "Mã KH, tên KH, mã số thuế...",
+    "create_cpnt": {
+      "title_main": "Thêm mới khách hàng",
+      "customer_id": "Mã khách hàng",
+      "tax_code": "Mã số thuế",
+      "customer_name": "Tên khách hàng",
+      "phone_number": "Số điện thoại",
+      "address": "Địa chỉ"
+    },
+    "update_customer": {
+      "title_main": "Chi tiết thông tin khách hàng",
+      "customer_id": "Mã khách hàng",
+      "tax_code": "Mã số thuế",
+      "customer_name": "Tên khách hàng",
+      "phone_number": "Số điện thoại",
+      "address": "Địa chỉ",
+      "processing_fee": "Phí gia công"
+    },
+    "list_qlkh": {
+      "customer_id": "Mã khách hàng",
+      "customer_name": "Tên khách hàng",
+      "tax_code": "Mã số thuế",
+      "phone_number": "Số điện thoại",
+      "address": "Địa chỉ",
+      "action": "Action"
+    },
+    "delete_cpnt": {
+      "title_main": "Xoá khách hàng"
+    }
+  },
+
+  "quan_ly_nguoi_dung": {
+    "title_main": "DANH SÁCH NHÂN VIÊN",
+    "search_placeholder": "Mã người dùng, tên người dùng, số điện thoại...",
+    "create_cpnt": {
+      "title_main": "Thêm mới người dùng",
+      "employee_id": "Mã người dùng",
+      "email": "Email",
+      "fullname": "Tên người dùng",
+      "phone_number": "Số điện thoại",
+      "password": "Password",
+      "position_name": "Chức vụ",
+      "role_name": "Nhóm quyền",
+      "department_name": "Phòng ban",
+      "branch_name": "Chi nhánh"
+    },
+    "list_qlnd_cpnt": {
+      "title_code_kh": "Mã người dùng",
+      "title_kh": "Tên người dùng",
+      "phone_number": "Số điện thoại",
+      "email": "Email",
+      "position_name": "Chức vụ",
+      "department_name": "Phòng ban",
+      "employee_customer": "Khách hàng quản lý"
+    },
+    "detail_cpnt": {
+      "title_main": "Chi tiết người dùng",
+      "employee_id": "Mã người dùng",
+      "email": "Email",
+      "fullname": "Tên người dùng",
+      "phone_number": "Số điện thoại",
+      "password": "Password",
+      "position_name": "Chức vụ",
+      "role_name": "Nhóm quyền",
+      "department_name": "Phòng ban",
+      "branch_name": "Chi nhánh"
+    },
+    "format_table": {
+      "customer_id": "Mã khách hàng",
+      "customer_name": "Tên khách hàng",
+      "tax_code": "Mã số thuế",
+      "action": "Action"
+    },
+    "delete_cpnt": {
+      "title_main": "Xoá người dùng"
+    }
+  },
+
+  "manage_unit": {
+    "title_main": "DANH MỤC ĐƠN VỊ",
+    "search_placeholder": "Mã đơn vị, Tên đơn vị, Ghi chú",
+    "table": {
+      "stt": "STT",
+      "unit_id": "Mã đơn vị",
+      "unit_name": "Tên đơn vị",
+      "note": "Ghi chú",
+      "type": "Loại đơn vị",
+      "action": "Action"
+    },
+    "detail": {
+      "title": "Chi tiết đơn vị"
+    },
+    "create": {
+      "title": "Thêm mới đơn vị"
+    },
+    "delete": {
+      "title": "Xóa đơn vị"
+    }
+  },
+
+  "manage_psr": {
+    "title_main": "DANH MỤC PSR",
+    "search_placeholder": "Tên form, số văn bản",
+    "table": {
+      "stt": "STT",
+      "name_form": "Tên form CO",
+      "number_document": "Số văn bản pháp luật đang áp dụng",
+      "user_update": "Người thay đổi gần nhất",
+      "time_update": "Thời gian thay đổi gần nhất",
+      "action": "Action"
+    },
+    "detail": {
+      "title": "Chi tiết PSR",
+      "sub_title": "Danh sách hàng hóa"
+    },
+    "create": {
+      "title": "Thêm mới PSR",
+      "sub_title": "Danh sách hàng hóa"
+    },
+    "delete": {
+      "title": "Xóa PSR"
+    }
+  },
+
+  "material_report": {
+    "title": "BÁO CÁO XUẤT NHẬP TỒN NVL",
+    "label_time": "Thời gian",
+    "time_placeholder": "Chọn ngày",
+    "search_placeholder": "Mã NVL, tên NVL",
+    "table": {
+      "stt": "STT",
+      "code_name": "Mã NPL, tên NPL",
+      "open_balance": "Số dư đầu kỳ",
+      "import_during": "Nhập trong kỳ",
+      "export_during": "Xuất trong kỳ",
+      "total": "TSL",
+      "time": "Thời gian",
+      "declaration": "Tờ khai (số lượng)",
+      "product": "Sản phẩm",
+      "co_number": "Số C/O)",
+      "end_balance": "Tồn cuối kỳ"
+    }
+  },
+
+  "authentication": {
+    "title": "Đăng nhập",
+    "username": "Tài khoản",
+    "password": "Mật khẩu",
+    "messages": {
+      "message_success": "Đăng nhập thành công!",
+      "message_failure": "Sai tài khoản hoặc mật khẩu! Vui lòng thử lại."
+    }
+  },
+
+  "authorization": {
+    "validator": {
+      "required": "Không thể để trống"
+    },
+    "tooltip": {
+      "btn_create": "Thêm mới",
+      "btn_update": "Chỉnh sửa",
+      "btn_delete": "Xóa",
+      "btn_add_role": "Chỉnh sửa nhóm quyền",
+      "btn_reset_password": "Reset mật khẩu",
+      "btn_detail_role": "Xem chi tiết nhóm quyền"
+    },
+    "functions": {
+      "title": "Quản lý tính năng",
+      "search_placeholder": "Tên tính năng",
+      "title_function": "Danh sách tính năng",
+      "modal": {
+        "title_create": "Thêm mới tính năng",
+        "title_update": "Chi tiết tính năng",
+        "title_delete": "Xóa tính năng",
+        "function_group": "Nhóm tính năng",
+        "function_name": "Tên tính năng",
+        "sort_order": "Sắp xếp",
+        "description": "Mô tả"
+      }
+    },
+    "actions": {
+      "title": "Chi tiết tính năng",
+      "search_placeholder": "Mã thao tác, tên thao tác",
+      "table": {
+        "stt": "STT",
+        "action_code": "Mã thao tác",
+        "action_name": "Tên thao tác",
+        "description": "Mô tả",
+        "action": "Action"
+      },
+      "modal": {
+        "title_create": "Thêm mới chi tiết",
+        "title_update": "Chỉnh sửa chi tiết",
+        "title_delete": "Xóa chi tiết"
+      }
+    },
+    "roles": {
+      "title": "QUẢN LÝ NHÓM QUYỀN",
+      "title_role": "Danh sách nhóm quyền",
+      "search_placeholder": "Mã nhóm quyền, tên nhóm quyền",
+      "dropdown_role_placeholder": "Chọn nhóm quyền",
+      "dropdown_role_title": "Nhóm quyền",
+      "title_function": "Danh sách tính năng",
+      "table": {
+        "stt": "STT",
+        "role_code": "Mã nhóm quyền",
+        "role_name": "Tên nhóm quyền",
+        "description": "Mô tả",
+        "action": "Action"
+      },
+      "modal": {
+        "title_create": "Thêm mới nhóm quyền",
+        "title_update": "Chi tiết nhóm quyền",
+        "title_delete": "Xóa nhóm quyền"
+      }
+    },
+    "users": {
+      "title": "DANH MỤC NGƯỜI DÙNG",
+      "search_placeholder": "Tên tài khoản, họ và tên",
+      "profile": "Thông tin tài khoản",
+      "table": {
+        "stt": "STT",
+        "user_name": "Tài khoản",
+        "old_password": "Mật khẩu hiện tại",
+        "new_password": "Mật khẩu mới",
+        "confirm_new_password": "Xác nhận mật khẩu",
+        "full_name": "Họ và tên",
+        "description": "Mô tả",
+        "date_of_birth": "Ngày sinh",
+        "gender": "Giới tính",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "roles": "Danh sách nhóm quyền",
+        "action": "Action"
+      },
+      "modal": {
+        "title_create": "Thêm mới người dùng",
+        "title_update": "Chi tiết người dùng",
+        "title_add_role": "Chỉnh sửa nhóm quyền",
+        "title_delete": "Xóa người dùng",
+        "title_reset": "Khôi phục mật khẩu",
+        "role_code": "Mã nhóm quyền",
+        "role_name": "Tên nhóm quyền",
+        "description": "Mô tả"
+      }
+    }
+  }
+}

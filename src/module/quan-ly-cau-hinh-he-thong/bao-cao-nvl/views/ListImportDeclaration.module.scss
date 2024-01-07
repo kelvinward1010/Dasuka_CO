@@ -1,0 +1,23 @@
+.page {
+  .container {
+    margin: 20px;
+
+    .head {
+      margin-bottom: 18px;
+
+      .title {
+        margin-bottom: 0;
+      }
+
+      .align_right {
+        text-align: right;
+
+        :global {
+          .ant-form-item {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

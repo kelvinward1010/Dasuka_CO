@@ -1,0 +1,30 @@
+.statistic_card {
+  box-shadow: 0px 0px 4px 0px #00000040;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 130px !important;
+
+  & .value {
+    color: var(--3, #1890ff);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: block;
+    line-height: 1;
+  }
+
+  & .title {
+    color: var(--gray-2, #141414);
+    /* H4 medium */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 !important;
+  }
+}

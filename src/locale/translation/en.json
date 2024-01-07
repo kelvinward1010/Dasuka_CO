@@ -1,0 +1,26 @@
+{
+  "error": {
+    "404.title": "Not Found",
+    "404.subTitle": "Sorry, the page you are looking for could not be found.",
+    "500.title": "Internal Server Error",
+    "500.subTitle": "Sorry, the page you are looking for error.",
+    "backHome": "Back to home"
+  },
+
+  "for_all": {
+    "title_kh": "Client is working"
+  },
+
+  "quan_ly_dinh_muc": {
+    "title_main": "LIST OF PRODUCTS LEVELS US",
+    "search_placeholder": "Nominal name, SP code, SP name"
+  },
+  "message": {
+    "create_success": "Create success",
+    "update_success": "Update success",
+    "delete_success": "Delete success",
+    "create_fail": "Create fail",
+    "update_fail": "Update fail",
+    "delete_fail": "Delete fail"
+  }
+}

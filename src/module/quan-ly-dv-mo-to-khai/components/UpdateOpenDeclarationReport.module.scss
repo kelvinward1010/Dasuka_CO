@@ -1,0 +1,21 @@
+.input_group {
+  position: relative;
+  &_checkbox {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin: 0 4px;
+    transform: translateY(-50%);
+    z-index: 20;
+  }
+
+  &_select {
+    // & input {
+    //   margin-left: .8rem !important;
+    // }
+
+    & span {
+      margin-left: 0.8rem !important;
+    }
+  }
+}

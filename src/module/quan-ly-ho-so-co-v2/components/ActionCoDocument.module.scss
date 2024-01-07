@@ -1,0 +1,51 @@
+// Edit, Cancel style
+.done_button {
+  color: #008816;
+}
+
+.pending_button {
+  color: #f4aa3a;
+}
+
+.disabled {
+  color: #bfbfbf !important;
+}
+
+.success {
+  color: #008816 !important;
+}
+
+.warning {
+  color: #f4aa3a !important;
+}
+
+.danger {
+  color: #ff4d4f !important;
+}
+
+// History style
+.button {
+  color: #1890ff;
+}
+
+.form {
+  justify-content: space-between;
+
+  :global {
+    .ant-form-item {
+      margin-bottom: 5px;
+
+      .ant-form-item-label > label {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.text_left {
+  text-align: left;
+}
+
+.text_center {
+  text-align: center;
+}

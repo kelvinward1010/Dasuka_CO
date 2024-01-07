@@ -1,0 +1,40 @@
+pipeline {
+  agent { label 'built-in' }
+
+  tools {
+    nodejs 'node_v16'
+  }
+
+  stages {
+    stage('SCM') {
+      steps {
+        checkout scm
+      }
+    }
+
+    stage('build') {
+      steps {
+        sh 'npm install -g pnpm'
+        sh 'pnpm install'
+        sh 'pnpm run build:dev'
+        archiveArtifacts artifacts: 'dist/**', fingerprint: true
+      }
+    }
+
+    stage('deploy') {
+      agent { label 'ds2' }
+      steps {
+        copyArtifacts filter: 'dist/**', fingerprintArtifacts: true, projectName: env.JOB_NAME, selector: specific ('${BUILD_NUMBER}')
+        sh 'rm -rf /var/www/dasuka-co-dev'
+        sh 'mkdir -p /var/www/dasuka-co-dev'
+        sh 'scp -r dist/. /var/www/dasuka-co-dev'
+      }
+
+      post {
+        success {
+          slackSend channel: 'C056R2413N1', color: 'good', message: "Build site dev success :rainbowcatdancin:"
+        }
+      }
+    }
+  }
+}

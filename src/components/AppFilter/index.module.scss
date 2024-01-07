@@ -1,0 +1,15 @@
+.filter {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px 20px;
+
+  .row {
+    width: 100%;
+  }
+
+  :global {
+    .ant-form-inline .ant-form-item {
+      margin-inline-end: 0;
+    }
+  }
+}

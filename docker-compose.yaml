@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app:
+    build: ./
+    restart: unless-stopped
+    env_file: ./.env
+    container_name: co_dasuka
+    image: co_dasuka
+    ports:
+      - "6789:80"
+    environment:
+      - VITE_BASE_URL=$VITE_BASE_URL
+      - VITE_GATEWAY_URL=$VITE_GATEWAY_URL
+      - VITE_BASE_CHAT=$VITE_BASE_CHAT
